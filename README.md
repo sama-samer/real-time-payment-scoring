@@ -31,24 +31,41 @@ Project Structure
 └── requirements.txt    # Python dependencies
 
 Start Docker Services
+
 The docker-compose.yml runs:
+
 Kafka (broker & controller)
+
 Kafka UI (monitor topics at port 8070)
+
 MySQL (database: payments_db, user: app_user)
+
 docker-compose up -d
+
 Check that services are healthy:
+
 docker-compose ps
+
 
 mysql schema:
 <img width="1514" height="375" alt="image" src="https://github.com/user-attachments/assets/3d0f6581-262d-4dfd-99ea-a1c7e0baa8be" />
+
 4. Install Python Dependencies
+
 from requirements.txt
+
   pip install -r requirements.txt
+  
 Run Kafka Producer:
+
   python producer.py
+  
 Run Kafka Consumer:
+
   python consumer.py
 
 Monitor Kafka
+
 Kafka UI is available at http://localhost:8070
 You can view the transactions topic in real time.
+
