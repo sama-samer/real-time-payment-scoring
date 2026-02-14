@@ -1,0 +1,987 @@
+2026-02-14 01:13:02,531 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:13:02,786 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Broker version identified as 2.6
+2026-02-14 01:13:02,786 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-14 01:13:02,792 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:13:02,814 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Broker version identified as 2.6
+2026-02-14 01:13:02,814 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-14 01:13:02,816 - INFO - Updating subscribed topics to: ('payments',)
+2026-02-14 01:28:37,666 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:30:24,543 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:30:24,614 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:30:24,615 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:30:24,616 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:30:24,648 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:30:24,648 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:30:24,648 - WARNING - No node available during check_version; sleeping 0.02 secs
+2026-02-14 01:30:24,669 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:30:24,679 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:30:24,679 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:30:24,680 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:30:24,683 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:30:24,684 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:30:24,685 - WARNING - No node available during check_version; sleeping 0.10 secs
+2026-02-14 01:30:24,789 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:30:24,798 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:30:24,798 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:30:24,799 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:30:24,802 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:30:24,803 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:30:24,803 - WARNING - No node available during check_version; sleeping 0.20 secs
+2026-02-14 01:30:25,008 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:30:25,009 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:30:25,010 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:30:25,011 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:30:25,011 - WARNING - No node available during check_version; sleeping 0.45 secs
+2026-02-14 01:30:25,465 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:30:25,466 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:30:25,467 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:30:25,468 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:30:25,468 - WARNING - No node available during check_version; sleeping 0.79 secs
+2026-02-14 01:30:26,255 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:30:26,256 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:30:26,256 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:30:26,258 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:30:26,258 - WARNING - No node available during check_version; sleeping 0.28 secs
+2026-02-14 01:33:29,751 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:36:10,809 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:36:12,819 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:36:17,823 - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:36:19,833 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:36:24,836 - INFO - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:36:26,837 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:36:31,848 - INFO - <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:36:33,856 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:36:38,863 - INFO - <BrokerConnection client_id=kafka-python-producer-5, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:36:40,864 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:36:45,875 - INFO - <BrokerConnection client_id=kafka-python-producer-6, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:36:47,877 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:36:52,886 - INFO - <BrokerConnection client_id=kafka-python-producer-7, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:36:54,887 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:36:59,897 - INFO - <BrokerConnection client_id=kafka-python-producer-8, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:37:01,899 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:37:06,911 - INFO - <BrokerConnection client_id=kafka-python-producer-9, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:37:08,914 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:37:13,925 - INFO - <BrokerConnection client_id=kafka-python-producer-10, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:37:15,931 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:37:20,938 - INFO - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:37:20,995 - ERROR - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:37:21,034 - ERROR - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:37:21,040 - INFO - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:37:21,060 - ERROR - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:37:21,061 - ERROR - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:37:21,066 - WARNING - No node available during check_version; sleeping 0.03 secs
+2026-02-14 01:37:21,102 - INFO - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:37:21,115 - ERROR - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:37:21,115 - ERROR - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:37:21,116 - INFO - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:37:21,122 - ERROR - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:37:21,122 - ERROR - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:37:21,123 - WARNING - No node available during check_version; sleeping 0.08 secs
+2026-02-14 01:37:21,204 - INFO - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:37:21,213 - ERROR - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:37:21,213 - ERROR - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:37:21,215 - INFO - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:37:21,221 - ERROR - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:37:21,221 - ERROR - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:37:21,222 - WARNING - No node available during check_version; sleeping 0.22 secs
+2026-02-14 01:37:21,440 - INFO - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:37:21,442 - ERROR - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:37:21,442 - INFO - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:37:21,444 - ERROR - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:37:21,446 - WARNING - No node available during check_version; sleeping 0.34 secs
+2026-02-14 01:37:21,787 - INFO - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:37:21,788 - ERROR - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:37:21,789 - INFO - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:37:21,790 - ERROR - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:37:21,791 - WARNING - No node available during check_version; sleeping 0.92 secs
+2026-02-14 01:37:22,718 - INFO - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:37:22,719 - ERROR - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:37:22,720 - INFO - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:37:22,721 - ERROR - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:37:22,723 - WARNING - No node available during check_version; sleeping 0.21 secs
+2026-02-14 01:37:22,936 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:37:27,962 - INFO - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:37:27,983 - ERROR - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:37:27,984 - ERROR - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:37:27,985 - INFO - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:37:27,991 - ERROR - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:37:27,991 - ERROR - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:37:27,992 - WARNING - No node available during check_version; sleeping 0.05 secs
+2026-02-14 01:37:28,041 - INFO - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:37:28,048 - ERROR - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:37:28,049 - ERROR - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:37:28,051 - INFO - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:37:28,057 - ERROR - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:37:28,058 - ERROR - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:37:28,059 - WARNING - No node available during check_version; sleeping 0.08 secs
+2026-02-14 01:37:28,137 - INFO - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:37:28,145 - ERROR - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:37:28,146 - ERROR - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:37:28,146 - INFO - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:37:28,149 - ERROR - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:37:28,149 - ERROR - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:37:28,150 - WARNING - No node available during check_version; sleeping 0.20 secs
+2026-02-14 01:37:28,352 - INFO - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:37:28,354 - ERROR - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:37:28,354 - INFO - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:37:28,356 - ERROR - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:37:28,356 - WARNING - No node available during check_version; sleeping 0.41 secs
+2026-02-14 01:37:28,768 - INFO - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:37:28,770 - ERROR - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:37:28,770 - INFO - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:37:28,774 - ERROR - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:37:28,775 - WARNING - No node available during check_version; sleeping 0.75 secs
+2026-02-14 01:37:29,524 - INFO - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:37:29,532 - ERROR - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:37:29,532 - INFO - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:37:29,534 - ERROR - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:37:29,534 - WARNING - No node available during check_version; sleeping 0.42 secs
+2026-02-14 01:37:29,957 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:37:51,087 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:37:51,181 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:37:51,182 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:37:51,184 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:37:51,204 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:37:51,205 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:37:51,206 - WARNING - No node available during check_version; sleeping 0.03 secs
+2026-02-14 01:37:51,243 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:37:51,263 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:37:51,263 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:37:51,265 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:37:51,274 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:37:51,274 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:37:51,275 - WARNING - No node available during check_version; sleeping 0.11 secs
+2026-02-14 01:37:51,383 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:37:51,399 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:37:51,399 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:37:51,399 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:37:51,405 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:37:51,405 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:37:51,405 - WARNING - No node available during check_version; sleeping 0.20 secs
+2026-02-14 01:37:51,612 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:37:51,614 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:37:51,614 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:37:51,615 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:37:51,615 - WARNING - No node available during check_version; sleeping 0.43 secs
+2026-02-14 01:37:52,046 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:37:52,050 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:37:52,051 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:37:52,052 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:37:52,054 - WARNING - No node available during check_version; sleeping 0.65 secs
+2026-02-14 01:37:52,708 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:37:52,709 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:37:52,710 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:37:52,711 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:37:52,711 - WARNING - No node available during check_version; sleeping 0.37 secs
+2026-02-14 01:37:53,086 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:37:58,092 - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:37:58,100 - ERROR - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:37:58,100 - ERROR - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:37:58,102 - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:37:58,106 - ERROR - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:37:58,106 - ERROR - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:37:58,107 - WARNING - No node available during check_version; sleeping 0.05 secs
+2026-02-14 01:37:58,158 - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:37:58,165 - ERROR - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:37:58,166 - ERROR - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:37:58,167 - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:37:58,171 - ERROR - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:37:58,171 - ERROR - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:37:58,172 - WARNING - No node available during check_version; sleeping 0.09 secs
+2026-02-14 01:37:58,268 - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:37:58,276 - ERROR - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:37:58,277 - ERROR - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:37:58,277 - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:37:58,280 - ERROR - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:37:58,280 - ERROR - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:37:58,281 - WARNING - No node available during check_version; sleeping 0.19 secs
+2026-02-14 01:37:58,478 - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:37:58,480 - ERROR - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:37:58,480 - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:37:58,482 - ERROR - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:37:58,482 - WARNING - No node available during check_version; sleeping 0.47 secs
+2026-02-14 01:37:58,953 - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:37:58,955 - ERROR - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:37:58,956 - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:37:58,958 - ERROR - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:37:58,959 - WARNING - No node available during check_version; sleeping 0.89 secs
+2026-02-14 01:37:59,855 - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:37:59,857 - ERROR - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:37:59,859 - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:37:59,860 - ERROR - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:37:59,862 - WARNING - No node available during check_version; sleeping 0.23 secs
+2026-02-14 01:38:00,091 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:38:05,097 - INFO - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:05,104 - ERROR - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:38:05,105 - ERROR - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:05,105 - INFO - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:05,108 - ERROR - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:38:05,108 - ERROR - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:05,109 - WARNING - No node available during check_version; sleeping 0.05 secs
+2026-02-14 01:38:05,157 - INFO - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:05,165 - ERROR - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:38:05,165 - ERROR - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:05,166 - INFO - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:05,169 - ERROR - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:38:05,169 - ERROR - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:05,170 - WARNING - No node available during check_version; sleeping 0.10 secs
+2026-02-14 01:38:05,274 - INFO - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:05,282 - ERROR - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:38:05,283 - ERROR - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:05,283 - INFO - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:05,286 - ERROR - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:38:05,286 - ERROR - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:05,287 - WARNING - No node available during check_version; sleeping 0.21 secs
+2026-02-14 01:38:05,500 - INFO - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:05,501 - ERROR - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:05,503 - INFO - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:05,507 - ERROR - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:05,508 - WARNING - No node available during check_version; sleeping 0.32 secs
+2026-02-14 01:38:05,829 - INFO - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:05,831 - ERROR - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:05,832 - INFO - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:05,832 - ERROR - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:05,834 - WARNING - No node available during check_version; sleeping 0.87 secs
+2026-02-14 01:38:06,702 - INFO - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:06,704 - ERROR - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:06,705 - INFO - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:06,706 - ERROR - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:06,706 - WARNING - No node available during check_version; sleeping 0.39 secs
+2026-02-14 01:38:07,096 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:38:12,102 - INFO - <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:12,112 - ERROR - <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:38:12,113 - ERROR - <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:12,114 - INFO - <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:12,118 - ERROR - <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:38:12,118 - ERROR - <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:12,119 - WARNING - No node available during check_version; sleeping 0.04 secs
+2026-02-14 01:38:12,164 - INFO - <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:12,171 - ERROR - <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:38:12,171 - ERROR - <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:12,172 - INFO - <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:12,177 - ERROR - <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:38:12,177 - ERROR - <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:12,178 - WARNING - No node available during check_version; sleeping 0.08 secs
+2026-02-14 01:38:12,260 - INFO - <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:12,270 - ERROR - <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:38:12,270 - ERROR - <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:12,271 - INFO - <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:12,275 - ERROR - <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:38:12,275 - ERROR - <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:12,276 - WARNING - No node available during check_version; sleeping 0.18 secs
+2026-02-14 01:38:12,459 - INFO - <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:12,460 - ERROR - <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:12,462 - INFO - <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:12,463 - ERROR - <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:12,463 - WARNING - No node available during check_version; sleeping 0.33 secs
+2026-02-14 01:38:12,798 - INFO - <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:12,800 - ERROR - <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:12,802 - INFO - <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:12,803 - ERROR - <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:12,804 - WARNING - No node available during check_version; sleeping 0.77 secs
+2026-02-14 01:38:13,574 - INFO - <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:13,576 - ERROR - <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:13,576 - INFO - <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:13,582 - ERROR - <BrokerConnection client_id=kafka-python-producer-4, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:13,584 - WARNING - No node available during check_version; sleeping 0.51 secs
+2026-02-14 01:38:14,100 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:38:19,107 - INFO - <BrokerConnection client_id=kafka-python-producer-5, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:19,117 - ERROR - <BrokerConnection client_id=kafka-python-producer-5, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:38:19,117 - ERROR - <BrokerConnection client_id=kafka-python-producer-5, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:19,119 - INFO - <BrokerConnection client_id=kafka-python-producer-5, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:19,125 - ERROR - <BrokerConnection client_id=kafka-python-producer-5, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:38:19,125 - ERROR - <BrokerConnection client_id=kafka-python-producer-5, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:19,126 - WARNING - No node available during check_version; sleeping 0.04 secs
+2026-02-14 01:38:19,170 - INFO - <BrokerConnection client_id=kafka-python-producer-5, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:19,178 - ERROR - <BrokerConnection client_id=kafka-python-producer-5, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:38:19,179 - ERROR - <BrokerConnection client_id=kafka-python-producer-5, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:19,180 - INFO - <BrokerConnection client_id=kafka-python-producer-5, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:19,184 - ERROR - <BrokerConnection client_id=kafka-python-producer-5, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:38:19,185 - ERROR - <BrokerConnection client_id=kafka-python-producer-5, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:19,185 - WARNING - No node available during check_version; sleeping 0.10 secs
+2026-02-14 01:38:19,287 - INFO - <BrokerConnection client_id=kafka-python-producer-5, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:19,293 - ERROR - <BrokerConnection client_id=kafka-python-producer-5, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:38:19,294 - ERROR - <BrokerConnection client_id=kafka-python-producer-5, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:19,294 - INFO - <BrokerConnection client_id=kafka-python-producer-5, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:19,303 - ERROR - <BrokerConnection client_id=kafka-python-producer-5, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:38:19,303 - ERROR - <BrokerConnection client_id=kafka-python-producer-5, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:19,304 - WARNING - No node available during check_version; sleeping 0.21 secs
+2026-02-14 01:38:19,514 - INFO - <BrokerConnection client_id=kafka-python-producer-5, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:19,517 - ERROR - <BrokerConnection client_id=kafka-python-producer-5, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:19,517 - INFO - <BrokerConnection client_id=kafka-python-producer-5, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:19,518 - ERROR - <BrokerConnection client_id=kafka-python-producer-5, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:19,519 - WARNING - No node available during check_version; sleeping 0.35 secs
+2026-02-14 01:38:19,867 - INFO - <BrokerConnection client_id=kafka-python-producer-5, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:19,869 - ERROR - <BrokerConnection client_id=kafka-python-producer-5, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:19,870 - INFO - <BrokerConnection client_id=kafka-python-producer-5, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:19,872 - ERROR - <BrokerConnection client_id=kafka-python-producer-5, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:19,873 - WARNING - No node available during check_version; sleeping 0.75 secs
+2026-02-14 01:38:20,627 - INFO - <BrokerConnection client_id=kafka-python-producer-5, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:20,629 - ERROR - <BrokerConnection client_id=kafka-python-producer-5, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:20,629 - INFO - <BrokerConnection client_id=kafka-python-producer-5, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:20,631 - ERROR - <BrokerConnection client_id=kafka-python-producer-5, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:20,631 - WARNING - No node available during check_version; sleeping 0.47 secs
+2026-02-14 01:38:21,106 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:38:26,114 - INFO - <BrokerConnection client_id=kafka-python-producer-6, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:26,121 - ERROR - <BrokerConnection client_id=kafka-python-producer-6, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:38:26,122 - ERROR - <BrokerConnection client_id=kafka-python-producer-6, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:26,122 - INFO - <BrokerConnection client_id=kafka-python-producer-6, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:26,128 - ERROR - <BrokerConnection client_id=kafka-python-producer-6, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:38:26,129 - ERROR - <BrokerConnection client_id=kafka-python-producer-6, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:26,130 - WARNING - No node available during check_version; sleeping 0.05 secs
+2026-02-14 01:38:26,181 - INFO - <BrokerConnection client_id=kafka-python-producer-6, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:26,188 - ERROR - <BrokerConnection client_id=kafka-python-producer-6, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:38:26,188 - ERROR - <BrokerConnection client_id=kafka-python-producer-6, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:26,189 - INFO - <BrokerConnection client_id=kafka-python-producer-6, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:26,196 - ERROR - <BrokerConnection client_id=kafka-python-producer-6, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:38:26,196 - ERROR - <BrokerConnection client_id=kafka-python-producer-6, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:26,197 - WARNING - No node available during check_version; sleeping 0.08 secs
+2026-02-14 01:38:26,286 - INFO - <BrokerConnection client_id=kafka-python-producer-6, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:26,291 - ERROR - <BrokerConnection client_id=kafka-python-producer-6, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:38:26,292 - ERROR - <BrokerConnection client_id=kafka-python-producer-6, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:26,293 - INFO - <BrokerConnection client_id=kafka-python-producer-6, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:26,297 - ERROR - <BrokerConnection client_id=kafka-python-producer-6, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:38:26,298 - ERROR - <BrokerConnection client_id=kafka-python-producer-6, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:26,298 - WARNING - No node available during check_version; sleeping 0.18 secs
+2026-02-14 01:38:26,481 - INFO - <BrokerConnection client_id=kafka-python-producer-6, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:26,483 - ERROR - <BrokerConnection client_id=kafka-python-producer-6, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:26,483 - INFO - <BrokerConnection client_id=kafka-python-producer-6, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:26,484 - ERROR - <BrokerConnection client_id=kafka-python-producer-6, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:26,485 - WARNING - No node available during check_version; sleeping 0.47 secs
+2026-02-14 01:38:26,954 - INFO - <BrokerConnection client_id=kafka-python-producer-6, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:26,956 - ERROR - <BrokerConnection client_id=kafka-python-producer-6, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:26,959 - INFO - <BrokerConnection client_id=kafka-python-producer-6, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:26,960 - ERROR - <BrokerConnection client_id=kafka-python-producer-6, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:26,961 - WARNING - No node available during check_version; sleeping 0.71 secs
+2026-02-14 01:38:27,674 - INFO - <BrokerConnection client_id=kafka-python-producer-6, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:27,675 - ERROR - <BrokerConnection client_id=kafka-python-producer-6, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:27,676 - INFO - <BrokerConnection client_id=kafka-python-producer-6, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:27,677 - ERROR - <BrokerConnection client_id=kafka-python-producer-6, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:27,678 - WARNING - No node available during check_version; sleeping 0.43 secs
+2026-02-14 01:38:28,112 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:38:33,118 - INFO - <BrokerConnection client_id=kafka-python-producer-7, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:33,127 - ERROR - <BrokerConnection client_id=kafka-python-producer-7, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:38:33,128 - ERROR - <BrokerConnection client_id=kafka-python-producer-7, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:33,128 - INFO - <BrokerConnection client_id=kafka-python-producer-7, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:33,132 - ERROR - <BrokerConnection client_id=kafka-python-producer-7, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:38:33,133 - ERROR - <BrokerConnection client_id=kafka-python-producer-7, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:33,134 - WARNING - No node available during check_version; sleeping 0.05 secs
+2026-02-14 01:38:33,182 - INFO - <BrokerConnection client_id=kafka-python-producer-7, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:33,188 - ERROR - <BrokerConnection client_id=kafka-python-producer-7, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:38:33,188 - ERROR - <BrokerConnection client_id=kafka-python-producer-7, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:33,189 - INFO - <BrokerConnection client_id=kafka-python-producer-7, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:33,192 - ERROR - <BrokerConnection client_id=kafka-python-producer-7, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:38:33,192 - ERROR - <BrokerConnection client_id=kafka-python-producer-7, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:33,192 - WARNING - No node available during check_version; sleeping 0.11 secs
+2026-02-14 01:38:33,302 - INFO - <BrokerConnection client_id=kafka-python-producer-7, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:33,307 - ERROR - <BrokerConnection client_id=kafka-python-producer-7, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:38:33,307 - ERROR - <BrokerConnection client_id=kafka-python-producer-7, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:33,308 - INFO - <BrokerConnection client_id=kafka-python-producer-7, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:33,313 - ERROR - <BrokerConnection client_id=kafka-python-producer-7, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:38:33,313 - ERROR - <BrokerConnection client_id=kafka-python-producer-7, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:33,314 - WARNING - No node available during check_version; sleeping 0.22 secs
+2026-02-14 01:38:33,639 - INFO - <BrokerConnection client_id=kafka-python-producer-7, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:33,641 - ERROR - <BrokerConnection client_id=kafka-python-producer-7, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:33,642 - INFO - <BrokerConnection client_id=kafka-python-producer-7, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:33,643 - ERROR - <BrokerConnection client_id=kafka-python-producer-7, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:33,644 - WARNING - No node available during check_version; sleeping 0.40 secs
+2026-02-14 01:38:34,045 - INFO - <BrokerConnection client_id=kafka-python-producer-7, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:34,047 - ERROR - <BrokerConnection client_id=kafka-python-producer-7, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:34,048 - INFO - <BrokerConnection client_id=kafka-python-producer-7, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:34,051 - ERROR - <BrokerConnection client_id=kafka-python-producer-7, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:34,051 - WARNING - No node available during check_version; sleeping 0.65 secs
+2026-02-14 01:38:34,710 - INFO - <BrokerConnection client_id=kafka-python-producer-7, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:34,712 - ERROR - <BrokerConnection client_id=kafka-python-producer-7, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:34,713 - INFO - <BrokerConnection client_id=kafka-python-producer-7, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:34,717 - ERROR - <BrokerConnection client_id=kafka-python-producer-7, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:34,718 - WARNING - No node available during check_version; sleeping 0.40 secs
+2026-02-14 01:38:35,117 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:38:40,128 - INFO - <BrokerConnection client_id=kafka-python-producer-8, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:40,137 - ERROR - <BrokerConnection client_id=kafka-python-producer-8, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:38:40,139 - ERROR - <BrokerConnection client_id=kafka-python-producer-8, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:40,139 - INFO - <BrokerConnection client_id=kafka-python-producer-8, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:40,142 - ERROR - <BrokerConnection client_id=kafka-python-producer-8, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:38:40,142 - ERROR - <BrokerConnection client_id=kafka-python-producer-8, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:40,143 - WARNING - No node available during check_version; sleeping 0.04 secs
+2026-02-14 01:38:40,183 - INFO - <BrokerConnection client_id=kafka-python-producer-8, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:40,190 - ERROR - <BrokerConnection client_id=kafka-python-producer-8, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:38:40,191 - ERROR - <BrokerConnection client_id=kafka-python-producer-8, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:40,191 - INFO - <BrokerConnection client_id=kafka-python-producer-8, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:40,195 - ERROR - <BrokerConnection client_id=kafka-python-producer-8, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:38:40,195 - ERROR - <BrokerConnection client_id=kafka-python-producer-8, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:40,196 - WARNING - No node available during check_version; sleeping 0.09 secs
+2026-02-14 01:38:40,288 - INFO - <BrokerConnection client_id=kafka-python-producer-8, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:40,295 - ERROR - <BrokerConnection client_id=kafka-python-producer-8, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:38:40,295 - ERROR - <BrokerConnection client_id=kafka-python-producer-8, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:40,296 - INFO - <BrokerConnection client_id=kafka-python-producer-8, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:40,300 - ERROR - <BrokerConnection client_id=kafka-python-producer-8, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:38:40,300 - ERROR - <BrokerConnection client_id=kafka-python-producer-8, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:40,300 - WARNING - No node available during check_version; sleeping 0.23 secs
+2026-02-14 01:38:40,536 - INFO - <BrokerConnection client_id=kafka-python-producer-8, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:40,537 - ERROR - <BrokerConnection client_id=kafka-python-producer-8, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:40,538 - INFO - <BrokerConnection client_id=kafka-python-producer-8, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:40,538 - ERROR - <BrokerConnection client_id=kafka-python-producer-8, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:40,540 - WARNING - No node available during check_version; sleeping 0.43 secs
+2026-02-14 01:38:40,977 - INFO - <BrokerConnection client_id=kafka-python-producer-8, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:40,979 - ERROR - <BrokerConnection client_id=kafka-python-producer-8, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:40,980 - INFO - <BrokerConnection client_id=kafka-python-producer-8, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:40,981 - ERROR - <BrokerConnection client_id=kafka-python-producer-8, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:40,982 - WARNING - No node available during check_version; sleeping 0.73 secs
+2026-02-14 01:38:41,715 - INFO - <BrokerConnection client_id=kafka-python-producer-8, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:41,717 - ERROR - <BrokerConnection client_id=kafka-python-producer-8, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:41,718 - INFO - <BrokerConnection client_id=kafka-python-producer-8, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:41,720 - ERROR - <BrokerConnection client_id=kafka-python-producer-8, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:41,721 - WARNING - No node available during check_version; sleeping 0.40 secs
+2026-02-14 01:38:42,127 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:38:47,138 - INFO - <BrokerConnection client_id=kafka-python-producer-9, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:47,151 - ERROR - <BrokerConnection client_id=kafka-python-producer-9, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:38:47,151 - ERROR - <BrokerConnection client_id=kafka-python-producer-9, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:47,152 - INFO - <BrokerConnection client_id=kafka-python-producer-9, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:47,156 - ERROR - <BrokerConnection client_id=kafka-python-producer-9, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:38:47,156 - ERROR - <BrokerConnection client_id=kafka-python-producer-9, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:47,157 - WARNING - No node available during check_version; sleeping 0.05 secs
+2026-02-14 01:38:47,207 - INFO - <BrokerConnection client_id=kafka-python-producer-9, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:47,212 - ERROR - <BrokerConnection client_id=kafka-python-producer-9, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:38:47,212 - ERROR - <BrokerConnection client_id=kafka-python-producer-9, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:47,213 - INFO - <BrokerConnection client_id=kafka-python-producer-9, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:47,216 - ERROR - <BrokerConnection client_id=kafka-python-producer-9, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:38:47,216 - ERROR - <BrokerConnection client_id=kafka-python-producer-9, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:47,217 - WARNING - No node available during check_version; sleeping 0.09 secs
+2026-02-14 01:38:47,305 - INFO - <BrokerConnection client_id=kafka-python-producer-9, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:47,312 - ERROR - <BrokerConnection client_id=kafka-python-producer-9, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:38:47,313 - ERROR - <BrokerConnection client_id=kafka-python-producer-9, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:47,314 - INFO - <BrokerConnection client_id=kafka-python-producer-9, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:47,317 - ERROR - <BrokerConnection client_id=kafka-python-producer-9, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:38:47,318 - ERROR - <BrokerConnection client_id=kafka-python-producer-9, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:47,319 - WARNING - No node available during check_version; sleeping 0.21 secs
+2026-02-14 01:38:47,525 - INFO - <BrokerConnection client_id=kafka-python-producer-9, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:47,528 - ERROR - <BrokerConnection client_id=kafka-python-producer-9, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:47,529 - INFO - <BrokerConnection client_id=kafka-python-producer-9, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:47,530 - ERROR - <BrokerConnection client_id=kafka-python-producer-9, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:47,530 - WARNING - No node available during check_version; sleeping 0.47 secs
+2026-02-14 01:38:48,002 - INFO - <BrokerConnection client_id=kafka-python-producer-9, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:48,003 - ERROR - <BrokerConnection client_id=kafka-python-producer-9, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:48,004 - INFO - <BrokerConnection client_id=kafka-python-producer-9, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:48,006 - ERROR - <BrokerConnection client_id=kafka-python-producer-9, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:48,007 - WARNING - No node available during check_version; sleeping 0.94 secs
+2026-02-14 01:38:48,945 - INFO - <BrokerConnection client_id=kafka-python-producer-9, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:48,947 - ERROR - <BrokerConnection client_id=kafka-python-producer-9, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:48,948 - INFO - <BrokerConnection client_id=kafka-python-producer-9, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:48,948 - ERROR - <BrokerConnection client_id=kafka-python-producer-9, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:48,948 - WARNING - No node available during check_version; sleeping 0.19 secs
+2026-02-14 01:38:49,137 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:38:54,144 - INFO - <BrokerConnection client_id=kafka-python-producer-10, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:54,179 - ERROR - <BrokerConnection client_id=kafka-python-producer-10, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:38:54,179 - ERROR - <BrokerConnection client_id=kafka-python-producer-10, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:54,180 - INFO - <BrokerConnection client_id=kafka-python-producer-10, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:54,183 - ERROR - <BrokerConnection client_id=kafka-python-producer-10, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:38:54,183 - ERROR - <BrokerConnection client_id=kafka-python-producer-10, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:54,184 - WARNING - No node available during check_version; sleeping 0.05 secs
+2026-02-14 01:38:54,234 - INFO - <BrokerConnection client_id=kafka-python-producer-10, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:54,241 - ERROR - <BrokerConnection client_id=kafka-python-producer-10, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:38:54,242 - ERROR - <BrokerConnection client_id=kafka-python-producer-10, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:54,242 - INFO - <BrokerConnection client_id=kafka-python-producer-10, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:54,245 - ERROR - <BrokerConnection client_id=kafka-python-producer-10, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:38:54,245 - ERROR - <BrokerConnection client_id=kafka-python-producer-10, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:54,245 - WARNING - No node available during check_version; sleeping 0.11 secs
+2026-02-14 01:38:54,354 - INFO - <BrokerConnection client_id=kafka-python-producer-10, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:54,360 - ERROR - <BrokerConnection client_id=kafka-python-producer-10, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:38:54,360 - ERROR - <BrokerConnection client_id=kafka-python-producer-10, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:54,361 - INFO - <BrokerConnection client_id=kafka-python-producer-10, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:54,365 - ERROR - <BrokerConnection client_id=kafka-python-producer-10, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:38:54,365 - ERROR - <BrokerConnection client_id=kafka-python-producer-10, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:38:54,366 - WARNING - No node available during check_version; sleeping 0.22 secs
+2026-02-14 01:38:54,590 - INFO - <BrokerConnection client_id=kafka-python-producer-10, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:54,591 - ERROR - <BrokerConnection client_id=kafka-python-producer-10, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:54,592 - INFO - <BrokerConnection client_id=kafka-python-producer-10, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:54,594 - ERROR - <BrokerConnection client_id=kafka-python-producer-10, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:54,595 - WARNING - No node available during check_version; sleeping 0.42 secs
+2026-02-14 01:38:55,016 - INFO - <BrokerConnection client_id=kafka-python-producer-10, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:55,018 - ERROR - <BrokerConnection client_id=kafka-python-producer-10, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:55,019 - INFO - <BrokerConnection client_id=kafka-python-producer-10, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:55,021 - ERROR - <BrokerConnection client_id=kafka-python-producer-10, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:55,021 - WARNING - No node available during check_version; sleeping 0.66 secs
+2026-02-14 01:38:55,686 - INFO - <BrokerConnection client_id=kafka-python-producer-10, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:38:55,687 - ERROR - <BrokerConnection client_id=kafka-python-producer-10, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:55,688 - INFO - <BrokerConnection client_id=kafka-python-producer-10, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:38:55,689 - ERROR - <BrokerConnection client_id=kafka-python-producer-10, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:38:55,691 - WARNING - No node available during check_version; sleeping 0.45 secs
+2026-02-14 01:38:56,145 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:39:01,151 - INFO - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:39:01,159 - ERROR - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:39:01,160 - ERROR - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:39:01,160 - INFO - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:39:01,164 - ERROR - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:39:01,165 - ERROR - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:39:01,165 - WARNING - No node available during check_version; sleeping 0.04 secs
+2026-02-14 01:39:01,209 - INFO - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:39:01,217 - ERROR - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:39:01,217 - ERROR - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:39:01,218 - INFO - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:39:01,221 - ERROR - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:39:01,221 - ERROR - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:39:01,222 - WARNING - No node available during check_version; sleeping 0.10 secs
+2026-02-14 01:39:01,320 - INFO - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:39:01,328 - ERROR - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:39:01,329 - ERROR - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:39:01,330 - INFO - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:39:01,335 - ERROR - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:39:01,335 - ERROR - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:39:01,336 - WARNING - No node available during check_version; sleeping 0.17 secs
+2026-02-14 01:39:01,511 - INFO - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:39:01,513 - ERROR - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:39:01,513 - INFO - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:39:01,516 - ERROR - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:39:01,517 - WARNING - No node available during check_version; sleeping 0.42 secs
+2026-02-14 01:39:01,937 - INFO - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:39:01,939 - ERROR - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:39:01,940 - INFO - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:39:01,941 - ERROR - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:39:01,942 - WARNING - No node available during check_version; sleeping 0.71 secs
+2026-02-14 01:39:02,656 - INFO - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:39:02,658 - ERROR - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:39:02,658 - INFO - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:39:02,659 - ERROR - <BrokerConnection client_id=kafka-python-producer-11, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:39:02,659 - WARNING - No node available during check_version; sleeping 0.49 secs
+2026-02-14 01:39:03,150 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:39:08,158 - INFO - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:39:08,164 - ERROR - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:39:08,164 - ERROR - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:39:08,165 - INFO - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:39:08,169 - ERROR - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:39:08,170 - ERROR - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:39:08,170 - WARNING - No node available during check_version; sleeping 0.05 secs
+2026-02-14 01:39:08,222 - INFO - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:39:08,227 - ERROR - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:39:08,227 - ERROR - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:39:08,229 - INFO - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:39:08,233 - ERROR - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:39:08,233 - ERROR - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:39:08,235 - WARNING - No node available during check_version; sleeping 0.09 secs
+2026-02-14 01:39:08,327 - INFO - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:39:08,332 - ERROR - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:39:08,333 - ERROR - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:39:08,334 - INFO - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:39:08,336 - ERROR - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:39:08,337 - ERROR - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:39:08,337 - WARNING - No node available during check_version; sleeping 0.21 secs
+2026-02-14 01:39:08,550 - INFO - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:39:08,552 - ERROR - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:39:08,553 - INFO - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:39:08,554 - ERROR - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:39:08,554 - WARNING - No node available during check_version; sleeping 0.42 secs
+2026-02-14 01:39:08,972 - INFO - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:39:08,973 - ERROR - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:39:08,973 - INFO - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:39:08,975 - ERROR - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:39:08,975 - WARNING - No node available during check_version; sleeping 0.76 secs
+2026-02-14 01:39:09,739 - INFO - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:39:09,741 - ERROR - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:39:09,741 - INFO - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:39:09,743 - ERROR - <BrokerConnection client_id=kafka-python-producer-12, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:39:09,744 - WARNING - No node available during check_version; sleeping 0.41 secs
+2026-02-14 01:39:10,155 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:39:15,163 - INFO - <BrokerConnection client_id=kafka-python-producer-13, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:39:15,185 - ERROR - <BrokerConnection client_id=kafka-python-producer-13, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:39:15,186 - ERROR - <BrokerConnection client_id=kafka-python-producer-13, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:39:15,188 - INFO - <BrokerConnection client_id=kafka-python-producer-13, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:39:15,192 - ERROR - <BrokerConnection client_id=kafka-python-producer-13, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:39:15,192 - ERROR - <BrokerConnection client_id=kafka-python-producer-13, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:39:15,192 - WARNING - No node available during check_version; sleeping 0.04 secs
+2026-02-14 01:39:15,230 - INFO - <BrokerConnection client_id=kafka-python-producer-13, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:39:15,238 - ERROR - <BrokerConnection client_id=kafka-python-producer-13, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:39:15,238 - ERROR - <BrokerConnection client_id=kafka-python-producer-13, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:39:15,240 - INFO - <BrokerConnection client_id=kafka-python-producer-13, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:39:15,243 - ERROR - <BrokerConnection client_id=kafka-python-producer-13, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:39:15,244 - ERROR - <BrokerConnection client_id=kafka-python-producer-13, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:39:15,245 - WARNING - No node available during check_version; sleeping 0.08 secs
+2026-02-14 01:39:15,322 - INFO - <BrokerConnection client_id=kafka-python-producer-13, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:39:15,329 - ERROR - <BrokerConnection client_id=kafka-python-producer-13, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: socket disconnected
+2026-02-14 01:39:15,329 - ERROR - <BrokerConnection client_id=kafka-python-producer-13, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:39:15,330 - INFO - <BrokerConnection client_id=kafka-python-producer-13, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:39:15,335 - ERROR - <BrokerConnection client_id=kafka-python-producer-13, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: socket disconnected
+2026-02-14 01:39:15,335 - ERROR - <BrokerConnection client_id=kafka-python-producer-13, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: socket disconnected
+2026-02-14 01:39:15,336 - WARNING - No node available during check_version; sleeping 0.19 secs
+2026-02-14 01:39:15,528 - INFO - <BrokerConnection client_id=kafka-python-producer-13, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:39:15,530 - ERROR - <BrokerConnection client_id=kafka-python-producer-13, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:39:15,531 - INFO - <BrokerConnection client_id=kafka-python-producer-13, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:39:15,532 - ERROR - <BrokerConnection client_id=kafka-python-producer-13, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:39:15,532 - WARNING - No node available during check_version; sleeping 0.32 secs
+2026-02-14 01:39:15,855 - INFO - <BrokerConnection client_id=kafka-python-producer-13, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:39:15,857 - ERROR - <BrokerConnection client_id=kafka-python-producer-13, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:39:15,857 - INFO - <BrokerConnection client_id=kafka-python-producer-13, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:39:15,857 - ERROR - <BrokerConnection client_id=kafka-python-producer-13, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:39:15,859 - WARNING - No node available during check_version; sleeping 0.80 secs
+2026-02-14 01:39:16,663 - INFO - <BrokerConnection client_id=kafka-python-producer-13, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:39:16,664 - ERROR - <BrokerConnection client_id=kafka-python-producer-13, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:39:16,665 - INFO - <BrokerConnection client_id=kafka-python-producer-13, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:39:16,667 - ERROR - <BrokerConnection client_id=kafka-python-producer-13, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_send> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. KafkaConnectionError: Unable to determine broker version.
+2026-02-14 01:39:16,668 - WARNING - No node available during check_version; sleeping 0.49 secs
+2026-02-14 01:39:17,160 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:39:22,171 - INFO - <BrokerConnection client_id=kafka-python-producer-14, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:39:23,191 - WARNING - <BrokerConnection client_id=kafka-python-producer-14, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]> timed out after 1000.0 ms. Closing connection.
+2026-02-14 01:39:23,193 - ERROR - <BrokerConnection client_id=kafka-python-producer-14, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. [Error 7] RequestTimedOutError: Request timed out after 1000.0 ms
+2026-02-14 01:39:23,196 - INFO - <BrokerConnection client_id=kafka-python-producer-14, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-14 01:39:24,182 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:39:29,192 - INFO - <BrokerConnection client_id=kafka-python-producer-15, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:39:31,201 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:39:36,208 - INFO - <BrokerConnection client_id=kafka-python-producer-16, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:39:38,207 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:39:43,230 - INFO - <BrokerConnection client_id=kafka-python-producer-17, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:39:45,224 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:39:50,356 - INFO - <BrokerConnection client_id=kafka-python-producer-18, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:39:52,231 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:39:57,235 - INFO - <BrokerConnection client_id=kafka-python-producer-19, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:39:59,244 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:40:04,249 - INFO - <BrokerConnection client_id=kafka-python-producer-20, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:40:06,258 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:40:11,266 - INFO - <BrokerConnection client_id=kafka-python-producer-21, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:40:13,266 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:40:18,273 - INFO - <BrokerConnection client_id=kafka-python-producer-22, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:40:20,275 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:40:25,283 - INFO - <BrokerConnection client_id=kafka-python-producer-23, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:40:27,282 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:40:32,297 - INFO - <BrokerConnection client_id=kafka-python-producer-24, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:40:34,294 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:40:39,303 - INFO - <BrokerConnection client_id=kafka-python-producer-25, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:40:41,306 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:40:46,314 - INFO - <BrokerConnection client_id=kafka-python-producer-26, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:40:48,312 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:40:53,327 - INFO - <BrokerConnection client_id=kafka-python-producer-27, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:40:55,330 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:41:00,334 - INFO - <BrokerConnection client_id=kafka-python-producer-28, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:41:02,335 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:41:07,342 - INFO - <BrokerConnection client_id=kafka-python-producer-29, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:41:09,345 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:41:14,638 - INFO - <BrokerConnection client_id=kafka-python-producer-30, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:41:16,553 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:41:21,558 - INFO - <BrokerConnection client_id=kafka-python-producer-31, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:41:23,565 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:41:28,574 - INFO - <BrokerConnection client_id=kafka-python-producer-32, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:41:30,573 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:41:35,589 - INFO - <BrokerConnection client_id=kafka-python-producer-33, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:41:37,597 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:41:42,605 - INFO - <BrokerConnection client_id=kafka-python-producer-34, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:41:44,609 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:41:49,615 - INFO - <BrokerConnection client_id=kafka-python-producer-35, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:41:51,616 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:41:56,627 - INFO - <BrokerConnection client_id=kafka-python-producer-36, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:41:58,633 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:42:03,640 - INFO - <BrokerConnection client_id=kafka-python-producer-37, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:42:05,651 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:42:10,658 - INFO - <BrokerConnection client_id=kafka-python-producer-38, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:42:12,663 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:42:17,799 - INFO - <BrokerConnection client_id=kafka-python-producer-39, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:42:19,741 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:42:24,755 - INFO - <BrokerConnection client_id=kafka-python-producer-40, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:42:26,762 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:42:31,770 - INFO - <BrokerConnection client_id=kafka-python-producer-41, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:42:33,772 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:42:38,781 - INFO - <BrokerConnection client_id=kafka-python-producer-42, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:42:40,777 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:42:45,781 - INFO - <BrokerConnection client_id=kafka-python-producer-43, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:42:47,782 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:42:52,811 - INFO - <BrokerConnection client_id=kafka-python-producer-44, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:42:54,798 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:42:59,809 - INFO - <BrokerConnection client_id=kafka-python-producer-45, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:43:01,816 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:43:06,821 - INFO - <BrokerConnection client_id=kafka-python-producer-46, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:43:08,823 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:43:13,829 - INFO - <BrokerConnection client_id=kafka-python-producer-47, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:43:15,830 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:43:20,839 - INFO - <BrokerConnection client_id=kafka-python-producer-48, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:43:22,838 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:43:27,844 - INFO - <BrokerConnection client_id=kafka-python-producer-49, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:43:29,854 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:43:34,864 - INFO - <BrokerConnection client_id=kafka-python-producer-50, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:43:36,867 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:43:41,875 - INFO - <BrokerConnection client_id=kafka-python-producer-51, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:43:43,872 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:43:48,878 - INFO - <BrokerConnection client_id=kafka-python-producer-52, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:43:50,881 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:43:55,887 - INFO - <BrokerConnection client_id=kafka-python-producer-53, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:43:57,886 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:44:02,926 - INFO - <BrokerConnection client_id=kafka-python-producer-54, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:44:04,892 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:44:09,898 - INFO - <BrokerConnection client_id=kafka-python-producer-55, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:44:11,908 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:44:16,915 - INFO - <BrokerConnection client_id=kafka-python-producer-56, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:44:18,929 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:44:23,938 - INFO - <BrokerConnection client_id=kafka-python-producer-57, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:44:25,941 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:44:30,947 - INFO - <BrokerConnection client_id=kafka-python-producer-58, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:44:32,958 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:44:37,967 - INFO - <BrokerConnection client_id=kafka-python-producer-59, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:44:39,970 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:44:45,007 - INFO - <BrokerConnection client_id=kafka-python-producer-60, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:44:47,003 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:44:52,009 - INFO - <BrokerConnection client_id=kafka-python-producer-61, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:44:54,011 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:44:59,018 - INFO - <BrokerConnection client_id=kafka-python-producer-62, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:45:01,021 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:45:06,036 - INFO - <BrokerConnection client_id=kafka-python-producer-63, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:45:08,041 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:45:13,095 - INFO - <BrokerConnection client_id=kafka-python-producer-64, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:45:15,073 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:45:20,080 - INFO - <BrokerConnection client_id=kafka-python-producer-65, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:45:22,082 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:45:27,088 - INFO - <BrokerConnection client_id=kafka-python-producer-66, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:45:29,088 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:45:34,098 - INFO - <BrokerConnection client_id=kafka-python-producer-67, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:45:36,108 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:45:41,115 - INFO - <BrokerConnection client_id=kafka-python-producer-68, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:45:43,121 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:45:48,133 - INFO - <BrokerConnection client_id=kafka-python-producer-69, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:45:50,131 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:45:55,140 - INFO - <BrokerConnection client_id=kafka-python-producer-70, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:45:57,150 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:46:02,156 - INFO - <BrokerConnection client_id=kafka-python-producer-71, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:46:04,158 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:46:09,167 - INFO - <BrokerConnection client_id=kafka-python-producer-72, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:46:11,171 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:46:16,210 - INFO - <BrokerConnection client_id=kafka-python-producer-73, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:46:18,217 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:46:23,225 - INFO - <BrokerConnection client_id=kafka-python-producer-74, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:46:25,227 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:46:30,238 - INFO - <BrokerConnection client_id=kafka-python-producer-75, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:46:32,242 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:46:37,249 - INFO - <BrokerConnection client_id=kafka-python-producer-76, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:46:39,253 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:46:44,258 - INFO - <BrokerConnection client_id=kafka-python-producer-77, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:46:46,269 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:46:51,283 - INFO - <BrokerConnection client_id=kafka-python-producer-78, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:46:53,282 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:46:58,291 - INFO - <BrokerConnection client_id=kafka-python-producer-79, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:47:00,298 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:47:05,306 - INFO - <BrokerConnection client_id=kafka-python-producer-80, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:47:07,312 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:47:12,322 - INFO - <BrokerConnection client_id=kafka-python-producer-81, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:47:14,330 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:47:19,335 - INFO - <BrokerConnection client_id=kafka-python-producer-82, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:47:21,347 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:47:26,353 - INFO - <BrokerConnection client_id=kafka-python-producer-83, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:47:28,357 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:47:33,364 - INFO - <BrokerConnection client_id=kafka-python-producer-84, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:47:35,363 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:47:40,369 - INFO - <BrokerConnection client_id=kafka-python-producer-85, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:47:42,371 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:47:47,380 - INFO - <BrokerConnection client_id=kafka-python-producer-86, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:47:49,388 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:47:54,397 - INFO - <BrokerConnection client_id=kafka-python-producer-87, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:47:56,397 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:48:01,403 - INFO - <BrokerConnection client_id=kafka-python-producer-88, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:48:03,402 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:48:08,413 - INFO - <BrokerConnection client_id=kafka-python-producer-89, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:48:10,418 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:48:16,005 - INFO - <BrokerConnection client_id=kafka-python-producer-90, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:48:17,445 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:48:22,449 - INFO - <BrokerConnection client_id=kafka-python-producer-91, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:48:24,455 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:48:29,463 - INFO - <BrokerConnection client_id=kafka-python-producer-92, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:48:31,474 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:48:36,480 - INFO - <BrokerConnection client_id=kafka-python-producer-93, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:48:38,489 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:48:43,494 - INFO - <BrokerConnection client_id=kafka-python-producer-94, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:48:45,498 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:48:50,503 - INFO - <BrokerConnection client_id=kafka-python-producer-95, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:48:52,506 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:48:57,512 - INFO - <BrokerConnection client_id=kafka-python-producer-96, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:48:59,523 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:49:04,530 - INFO - <BrokerConnection client_id=kafka-python-producer-97, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:49:06,541 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:49:11,547 - INFO - <BrokerConnection client_id=kafka-python-producer-98, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:49:13,558 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:49:18,568 - INFO - <BrokerConnection client_id=kafka-python-producer-99, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:49:20,566 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:49:25,571 - INFO - <BrokerConnection client_id=kafka-python-producer-100, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:49:27,573 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:49:32,580 - INFO - <BrokerConnection client_id=kafka-python-producer-101, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:49:34,578 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:49:39,586 - INFO - <BrokerConnection client_id=kafka-python-producer-102, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:49:41,596 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:49:46,602 - INFO - <BrokerConnection client_id=kafka-python-producer-103, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:49:48,612 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:49:53,712 - INFO - <BrokerConnection client_id=kafka-python-producer-104, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:49:55,638 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:50:00,649 - INFO - <BrokerConnection client_id=kafka-python-producer-105, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:50:02,653 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:50:07,658 - INFO - <BrokerConnection client_id=kafka-python-producer-106, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:50:09,660 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:50:14,667 - INFO - <BrokerConnection client_id=kafka-python-producer-107, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:50:16,666 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:50:21,681 - INFO - <BrokerConnection client_id=kafka-python-producer-108, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:50:23,676 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:50:28,683 - INFO - <BrokerConnection client_id=kafka-python-producer-109, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:50:30,695 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:50:35,703 - INFO - <BrokerConnection client_id=kafka-python-producer-110, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:50:37,708 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:50:42,746 - INFO - <BrokerConnection client_id=kafka-python-producer-111, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:50:44,721 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:50:49,728 - INFO - <BrokerConnection client_id=kafka-python-producer-112, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:50:51,734 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:50:56,741 - INFO - <BrokerConnection client_id=kafka-python-producer-113, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:50:58,752 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:51:03,762 - INFO - <BrokerConnection client_id=kafka-python-producer-114, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:51:05,759 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:51:10,767 - INFO - <BrokerConnection client_id=kafka-python-producer-115, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:51:12,764 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:51:17,772 - INFO - <BrokerConnection client_id=kafka-python-producer-116, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:51:19,782 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:51:24,791 - INFO - <BrokerConnection client_id=kafka-python-producer-117, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:51:26,799 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:51:31,806 - INFO - <BrokerConnection client_id=kafka-python-producer-118, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:51:33,806 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:51:38,814 - INFO - <BrokerConnection client_id=kafka-python-producer-119, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:51:40,822 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:51:45,850 - INFO - <BrokerConnection client_id=kafka-python-producer-120, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:51:47,839 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 01:51:52,844 - INFO - <BrokerConnection client_id=kafka-python-producer-121, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 01:51:54,843 - ERROR - Kafka Producer connection failed: NoBrokersAvailable. Waiting 5s before retry...
+2026-02-14 09:03:04,668 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 09:03:04,704 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Broker version identified as 2.6
+2026-02-14 09:03:04,705 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-14 09:03:04,706 - WARNING - group_id is None: disabling auto-commit.
+2026-02-14 09:03:04,706 - INFO - Updating subscribed topics to: ('transactions',)
+2026-02-14 09:03:04,716 - INFO - Updated partition assignment: [TopicPartition(topic='transactions', partition=0)]
+2026-02-14 09:03:04,720 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=1 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 09:03:04,734 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-14 09:03:04,735 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. 
+2026-02-14 09:03:04,880 - INFO - Resetting offset for partition TopicPartition(topic='transactions', partition=0) to offset 1.
+2026-02-14 09:03:54,942 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 09:03:54,957 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Broker version identified as 2.6
+2026-02-14 09:03:54,957 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-14 09:03:54,962 - WARNING - group_id is None: disabling auto-commit.
+2026-02-14 09:03:54,962 - INFO - Updating subscribed topics to: ('transactions',)
+2026-02-14 09:03:54,969 - INFO - Updated partition assignment: [TopicPartition(topic='transactions', partition=0)]
+2026-02-14 09:03:54,969 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=1 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 09:03:54,969 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-14 09:03:54,975 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. 
+2026-02-14 09:03:54,997 - INFO - Resetting offset for partition TopicPartition(topic='transactions', partition=0) to offset 3.
+2026-02-14 09:04:34,478 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 09:04:34,493 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Broker version identified as 2.6
+2026-02-14 09:04:34,493 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-14 09:04:34,497 - WARNING - group_id is None: disabling auto-commit.
+2026-02-14 09:04:34,497 - INFO - Updating subscribed topics to: ('transactions',)
+2026-02-14 09:04:34,504 - INFO - Updated partition assignment: [TopicPartition(topic='transactions', partition=0)]
+2026-02-14 09:04:34,505 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=1 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 09:04:34,505 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-14 09:04:34,505 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. 
+2026-02-14 09:04:34,534 - INFO - Resetting offset for partition TopicPartition(topic='transactions', partition=0) to offset 5.
+2026-02-14 09:08:33,439 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 09:08:33,558 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Broker version identified as 2.6
+2026-02-14 09:08:33,558 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-14 09:08:33,560 - WARNING - group_id is None: disabling auto-commit.
+2026-02-14 09:08:33,560 - INFO - Updating subscribed topics to: ('transactions',)
+2026-02-14 09:08:33,624 - INFO - Updated partition assignment: [TopicPartition(topic='transactions', partition=0)]
+2026-02-14 09:08:33,628 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=1 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 09:08:33,629 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-14 09:08:33,632 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. 
+2026-02-14 09:08:33,753 - INFO - Resetting offset for partition TopicPartition(topic='transactions', partition=0) to offset 7.
+2026-02-14 09:08:35,889 - ERROR - Error processing transaction 5: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- amount
+- currency_usd
+- customer_age
+- feature_10
+- feature_11
+- ...
+Feature names seen at fit time, yet now missing:
+- Amount
+- Hour_from_start_mod24
+- V1
+- V10
+- V11
+- ...
+
+2026-02-14 09:12:46,295 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 09:12:46,336 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Broker version identified as 2.6
+2026-02-14 09:12:46,337 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-14 09:12:46,338 - WARNING - group_id is None: disabling auto-commit.
+2026-02-14 09:12:46,339 - INFO - Updating subscribed topics to: ('transactions',)
+2026-02-14 09:12:46,356 - INFO - Updated partition assignment: [TopicPartition(topic='transactions', partition=0)]
+2026-02-14 09:12:46,360 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=1 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 09:12:46,362 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-14 09:12:46,363 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. 
+2026-02-14 09:12:46,451 - INFO - Resetting offset for partition TopicPartition(topic='transactions', partition=0) to offset 8.
+2026-02-14 09:12:59,843 - INFO - Transaction 5 | Amount: $1000000.00 | Fraud Score: 0.0002 | Risk: Low | \u2713 SAVED
+2026-02-14 09:15:46,049 - INFO - Transaction 101 | Amount: $50.00 | Fraud Score: 0.0002 | Risk: Low | \u2713 SAVED
+2026-02-14 09:15:46,238 - INFO - Transaction 102 | Amount: $15000.00 | Fraud Score: 0.0002 | Risk: Low | \u2713 SAVED
+2026-02-14 09:15:46,392 - INFO - Transaction 103 | Amount: $500.00 | Fraud Score: 0.0002 | Risk: Low | \u2713 SAVED
+2026-02-14 09:15:46,590 - INFO - Transaction 104 | Amount: $0.01 | Fraud Score: 0.0002 | Risk: Low | \u2713 SAVED
+2026-02-14 09:15:47,043 - INFO - Transaction 105 | Amount: $25000.00 | Fraud Score: 0.0002 | Risk: Low | \u2713 SAVED
+2026-02-14 09:17:29,185 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 09:17:29,205 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Broker version identified as 2.6
+2026-02-14 09:17:29,206 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-14 09:17:29,207 - WARNING - group_id is None: disabling auto-commit.
+2026-02-14 09:17:29,208 - INFO - Updating subscribed topics to: ('transactions',)
+2026-02-14 09:17:29,216 - INFO - Updated partition assignment: [TopicPartition(topic='transactions', partition=0)]
+2026-02-14 09:17:29,220 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=1 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 09:17:29,224 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-14 09:17:29,224 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. 
+2026-02-14 09:17:29,280 - INFO - Resetting offset for partition TopicPartition(topic='transactions', partition=0) to offset 19.
+2026-02-14 09:18:04,066 - INFO - Transaction 107 | Amount: $50.00 | Fraud Score: 0.0010 | Risk: Low | \u2713 SAVED
+2026-02-14 09:18:04,487 - INFO - Transaction 108 | Amount: $15000.00 | Fraud Score: 0.0015 | Risk: Low | \u2713 SAVED
+2026-02-14 09:18:04,753 - INFO - Transaction 109 | Amount: $500.00 | Fraud Score: 0.0010 | Risk: Low | \u2713 SAVED
+2026-02-14 09:18:04,990 - INFO - Transaction 110 | Amount: $0.01 | Fraud Score: 0.0002 | Risk: Low | \u2713 SAVED
+2026-02-14 09:18:05,202 - INFO - Transaction 144 | Amount: $25000.00 | Fraud Score: 0.0502 | Risk: Low | \u2713 SAVED
+2026-02-14 09:35:35,056 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 09:35:35,086 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Broker version identified as 2.6
+2026-02-14 09:35:35,086 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-14 09:35:35,086 - WARNING - group_id is None: disabling auto-commit.
+2026-02-14 09:35:35,087 - INFO - Updating subscribed topics to: ('transactions',)
+2026-02-14 09:35:35,103 - INFO - Updated partition assignment: [TopicPartition(topic='transactions', partition=0)]
+2026-02-14 09:35:35,105 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=1 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 09:35:35,106 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-14 09:35:35,107 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. 
+2026-02-14 09:35:35,233 - INFO - Resetting offset for partition TopicPartition(topic='transactions', partition=0) to offset 24.
+2026-02-14 09:36:12,265 - INFO - \U0001f4b3 $     50.00 | USD | completed | Sat 09:00 [WEEKEND, BUSINESS_HRS] | Score: 0.0010 | Low | \u2713 SAVED
+2026-02-14 09:36:12,456 - INFO - \U0001f4b3 $ 15,000.00 | USD | completed | Sat 09:00 [WEEKEND, BUSINESS_HRS] | Score: 0.0004 | Low | \u2713 SAVED
+2026-02-14 09:36:12,631 - INFO - \U0001f4b3 $    500.00 | EUR | pending   | Sat 09:00 [WEEKEND, BUSINESS_HRS] | Score: 0.0004 | Low | \u2713 SAVED
+2026-02-14 09:36:12,795 - INFO - \U0001f4b3 $      0.01 | USD | completed | Sat 09:00 [WEEKEND, BUSINESS_HRS] | Score: 0.0002 | Low | \u2713 SAVED
+2026-02-14 09:36:12,960 - INFO - \U0001f4b3 $ 25,000.00 | USD | failed    | Sat 09:00 [WEEKEND, BUSINESS_HRS] | Score: 0.0047 | Low | \u2713 SAVED
+2026-02-14 09:42:40,165 - INFO - \U0001f4b3 $     50.00 | USD | completed | Wed 14:00 [BUSINESS_HRS] | Score: 0.0010 | Low | \u2713 SAVED
+2026-02-14 09:42:40,428 - INFO - \U0001f4b3 $ 15,000.00 | USD | completed | Sun 02:00 [NIGHT, WEEKEND] | Score: 0.0917 | Low | \u2713 SAVED
+2026-02-14 09:42:40,652 - INFO - \U0001f4b3 $  8,500.00 | EUR | failed    | Sat 23:00 [NIGHT, WEEKEND] | Score: 0.1751 | Low | \u2713 SAVED
+2026-02-14 09:42:40,870 - INFO - \U0001f4b3 $    120.00 | USD | completed | Tue 10:00 [BUSINESS_HRS] | Score: 0.0012 | Low | \u2713 SAVED
+2026-02-14 09:42:41,084 - INFO - \U0001f4b3 $ 99,999.00 | USD | completed | Sun 03:00 [NIGHT, WEEKEND] | Score: 0.0917 | Low | \u2713 SAVED
+2026-02-14 09:42:41,299 - INFO - \U0001f4b3 $      5.99 | USD | completed | Mon 06:00 | Score: 0.0917 | Low | \u2713 SAVED
+2026-02-14 09:42:41,522 - INFO - \U0001f4b3 $ 50,000.00 | GBP | completed | Fri 01:00 [NIGHT] | Score: 0.1334 | Low | \u2713 SAVED
+2026-02-14 09:45:02,639 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 09:45:02,718 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Broker version identified as 2.6
+2026-02-14 09:45:02,719 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-14 09:45:02,720 - WARNING - group_id is None: disabling auto-commit.
+2026-02-14 09:45:02,721 - INFO - Updating subscribed topics to: ('transactions',)
+2026-02-14 09:45:02,755 - INFO - Updated partition assignment: [TopicPartition(topic='transactions', partition=0)]
+2026-02-14 09:45:02,760 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=1 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 09:45:02,761 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-14 09:45:02,762 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. 
+2026-02-14 09:45:02,918 - INFO - Resetting offset for partition TopicPartition(topic='transactions', partition=0) to offset 36.
+2026-02-14 09:45:23,710 - INFO - \U0001f4b3 $     50.00 | USD | completed | Wed 14:00 [BUSINESS_HRS] | Score: 0.0010 | Low | \u2713 SAVED
+2026-02-14 09:45:24,094 - INFO - \U0001f4b3 $ 15,000.00 | USD | completed | Sun 02:00 [NIGHT, WEEKEND] | Score: 0.0917 | Medium | \u2713 SAVED
+2026-02-14 09:45:24,341 - INFO - \U0001f4b3 $  8,500.00 | EUR | failed    | Sat 23:00 [NIGHT, WEEKEND] | Score: 0.1751 | High | \u2713 SAVED
+2026-02-14 09:45:24,505 - INFO - \U0001f4b3 $    120.00 | USD | completed | Tue 10:00 [BUSINESS_HRS] | Score: 0.0012 | Low | \u2713 SAVED
+2026-02-14 09:45:24,710 - INFO - \U0001f4b3 $ 99,999.00 | USD | completed | Sun 03:00 [NIGHT, WEEKEND] | Score: 0.0917 | Medium | \u2713 SAVED
+2026-02-14 09:45:24,895 - INFO - \U0001f4b3 $      5.99 | USD | completed | Mon 06:00 | Score: 0.0917 | Medium | \u2713 SAVED
+2026-02-14 09:45:25,391 - INFO - \U0001f4b3 $ 50,000.00 | GBP | completed | Fri 01:00 [NIGHT] | Score: 0.1334 | Medium | \u2713 SAVED
+2026-02-14 11:11:51,355 - INFO - package: mysql.connector.plugins
+2026-02-14 11:11:51,356 - INFO - plugin_name: mysql_native_password
+2026-02-14 11:11:51,372 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-02-14 11:11:51,422 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 11:11:51,477 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Broker version identified as 2.6
+2026-02-14 11:11:51,477 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-14 11:11:51,477 - WARNING - group_id is None: disabling auto-commit.
+2026-02-14 11:11:51,477 - INFO - Updating subscribed topics to: ('transactions',)
+2026-02-14 11:11:51,484 - INFO - Updated partition assignment: [TopicPartition(topic='transactions', partition=0)]
+2026-02-14 11:11:51,484 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=1 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-14 11:11:51,484 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-14 11:11:51,484 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. 
+2026-02-14 11:11:51,551 - INFO - Resetting offset for partition TopicPartition(topic='transactions', partition=0) to offset 43.
+2026-02-14 11:11:53,552 - INFO - Processed: Amount=$50.0, Score=0.0010, Risk=Low
+2026-02-14 11:11:53,709 - INFO - Processed: Amount=$15000.0, Score=0.0917, Risk=Medium
+2026-02-14 11:11:53,854 - INFO - Processed: Amount=$8500.0, Score=0.1751, Risk=High
+2026-02-14 11:11:54,083 - INFO - Processed: Amount=$120.0, Score=0.0012, Risk=Low
+2026-02-14 11:11:54,374 - INFO - Processed: Amount=$99999.0, Score=0.0917, Risk=Medium
+2026-02-14 11:11:54,673 - INFO - Processed: Amount=$5.99, Score=0.0917, Risk=Medium
+2026-02-14 11:11:54,981 - INFO - Processed: Amount=$50000.0, Score=0.1334, Risk=Medium
+2026-02-14 11:31:16,673 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. 
+2026-02-14 11:31:16,703 - INFO - Fetch to node 1 failed: Cancelled: <BrokerConnection client_id=kafka-python-2.3.0, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>
