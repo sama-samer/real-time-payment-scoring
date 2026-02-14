@@ -1,6 +1,9 @@
 This project implements a real-time payment scoring system to detect potentially fraudulent transactions and assess credit risk. It uses:
+
 Apache Kafka: for real-time streaming of transactions
+
 Machine Learning Model: a pre-trained Random Forest model (rf_cal) for scoring using the model from hugging face:https://huggingface.co/tarekmasryo/credit-card-fraud-detection?utm_source=chatgpt.com
+
 MySQL: to store transactions with computed fraud scores
 Docker: containerizes Kafka, MySQL, and Kafka UI for easy deployment
 The system includes both a Kafka producer (to send sample transactions) and a Kafka consumer (to score transactions and store results).
@@ -68,4 +71,8 @@ Monitor Kafka
 
 Kafka UI is available at http://localhost:8070
 You can view the transactions topic in real time.
+<img width="1734" height="846" alt="image" src="https://github.com/user-attachments/assets/2185f8db-8f1f-4686-9e69-f9c6f3f78d68" />
+<img width="412" height="188" alt="image" src="https://github.com/user-attachments/assets/259c0eeb-37ab-422c-a1c8-974f4be2798e" />
+
+
 
