@@ -15,12 +15,19 @@ Kafka UI for monitoring topics
 Project Structure
 .
 ├── consumer.py         # Kafka consumer: scores transactions and stores in MySQL
+
 ├── producer.py         # Kafka producer: sends sample transaction data
+
 ├── model.py            # Downloads and loads pre-trained ML model
+
 ├── check.py            # Checks features expected by the model 
+
 ├── docker-compose.yml  # Docker configuration for Kafka, MySQL, Kafka-UI
+
 ├── init-scripts/       # Optional SQL scripts to initialize MySQL schema
+
 ├── README.md           # This file
+
 └── requirements.txt    # Python dependencies
 
 Start Docker Services
